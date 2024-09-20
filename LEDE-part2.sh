@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.0.1/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
 # 修改设备名称
 #sed -i 's/OpenWrt/HMAC2100/g' package/base-files/files/bin/config_generate
 # 修改时区(貌似没有起作用)
