@@ -22,7 +22,14 @@ addFeeds(){
 
 # 添加 feed 源
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+# sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+# sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+# sed -i '$a src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
+# sed -i '$a src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
+
+
 # sed -i '$a src-git custom https://github.com/kiddin9/openwrt-packages.git;master' feeds.conf.default
+
 addFeeds custom https://github.com/kiddin9/openwrt-packages.git
 
 # 添加软件包源
